@@ -1,11 +1,13 @@
 h1 {
   text-align: center;
+  color: beige;
 }
 
 .profile-picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
 }
 
 .first-heading {
@@ -23,10 +25,11 @@ h1 {
 img {
   height: 100px;
   width: 100px;
-  border-radius: ;
 }
 body {
-  background-image: url("background-image.png");
+  font-family: "Sofia", sans-serif;
+
+  background-image: url("images/background-image.png");
   background-position: 0%;
   opacity: 1;
   background-size: cover;
@@ -43,9 +46,14 @@ li {
 }
 
 .networks {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-profiles {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  padding: 8px;
 }

@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=T, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
   </head>
   <body>
-    <h1 style="color: beige">Tanmay Sharma</h1>
-    <img class="profile-picture" src="IMG_3682.JPG" alt="profile-picture" />
-    <p style="color: beige" ; class="first-heading">
+    <div class="header">
+        <h1 style="color: beige">Tanmay Sharma</h1>
+        <img class="profile-picture" src="images/IMG_3682.JPG" alt="profile-picture" />
+    </div>
+    <p class="first-heading" style="color: beige">
       Hello! I'm a Web developer
     </p>
     <p style="color: beige" class="bio">
@@ -23,17 +26,19 @@
       <li>HOME</li>
       <li>PROJECTS</li>
       <li>SKILLS</li>
-      <a href="contact.html"><li>CONTACT</li>
+      <a style="text-decoration: none ; color: beige;" href="pages/contact.html"><li>CONTACT</li>
     </ul>
+    <img
+      id="background-image"
+      src="images/background-image.png"
+      alt="background-image"
+    />
     <div class="networks">
-      <img
-        id="background-image"
-        src="background-image.png"
-        alt="background-image"
-      />
-      <a href="https://www.instagram.com/tanmaysharma0/"><img id="insta-logo" src="insta-logo.png" alt="insta-logo" />
-      <a href="https://www.linkedin.com/in/tanmay-sharma-052a16136/"><img id="linkedin-logo" src="linkedin-logo.png" alt="linkedin-logo" />
-      <a href="https://github.com/Tanmay0799"><img id="github" src="github.png" alt="github" />
+       <div class="social">
+        <a href="https://www.instagram.com/tanmaysharma0/"><img id="insta-logo" class="social-profiles" src="images/insta-logo.png" alt="insta-logo" />
+        <a href="https://www.linkedin.com/in/tanmay-sharma-052a16136/"><img id="linkedin-logo" class="social-profiles" src="images/linkedin.png" alt="linkedin-logo" />
+        <a href="https://github.com/Tanmay0799"><img id="github" class="social-profiles" src="images/github.png" alt="github" />
+      </div>
     </div>
   </body>
 </html>
