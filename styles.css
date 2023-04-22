@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-heading {
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+}
+
+.website {
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: ;
+}
+body {
+  background-image: url("background-image.png");
+  background-position: 0%;
+  opacity: 1;
+  background-size: cover;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.networks {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
